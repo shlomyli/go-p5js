@@ -1,3 +1,4 @@
+// The code is based on a code by:
 // Daniel Shiffman
 // http://codingtra.in
 // Steering Text Paths
@@ -7,6 +8,7 @@ let font;
 let vehicles = [];
 
 function preload() {
+    // https://fonts.google.com/specimen/Heebo
     font = loadFont('./Heebo[wght].ttf');
 }
 
