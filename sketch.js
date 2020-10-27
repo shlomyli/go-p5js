@@ -17,7 +17,7 @@ function setup() {
     background(51);
 
     var points = font.textToPoints('ךֵל', 400, 400, 400, {
-        sampleFactor: 0.5
+        sampleFactor: 0.25
     });
 
     for (var i = 0; i < points.length; i++) {
